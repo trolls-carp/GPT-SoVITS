@@ -6,7 +6,7 @@ import platform
 import psutil
 import signal
 
-warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignoreit")
 torch.manual_seed(233333)
 tmp = os.path.join(now_dir, "TEMP")
 os.makedirs(tmp, exist_ok=True)
